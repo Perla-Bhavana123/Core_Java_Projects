@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class NonRepeatingCharacter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the nstring:");
+		String s=sc.next();
+		String s2=" ";
+		char[] str=s.toCharArray();
+		for(int i=0;i<str.length;i++) {
+			for(int j=i+1;j<str.length;j++) {
+				if(str[i]!=str[j]) {
+					s2=s2+str[i];
+				}
+				
+		System.out.println(s2);
+	}
+}
+	}
+}

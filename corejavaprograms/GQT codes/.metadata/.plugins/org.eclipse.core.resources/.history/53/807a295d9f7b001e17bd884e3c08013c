@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class RevereWords {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the string");
+		String s="bhavana Perla";
+		String s1="";
+		for(int i=0;i<s.length()-1;i++) {
+			if(s.charAt(i)=='a' || s.charAt(i)=='i' || s.charAt(i)=='o' || s.charAt(i)=='u' || s.charAt(i)=='e') {
+				System.out.println(s1);
+			}
+			
+		}
+	}
+	}
+		
+
+	

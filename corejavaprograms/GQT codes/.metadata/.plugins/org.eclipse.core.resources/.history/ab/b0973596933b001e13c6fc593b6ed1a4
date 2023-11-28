@@ -1,0 +1,82 @@
+/**import java.util.Scanner
+ * 
+ */
+package com.gqt.calculator.project;
+
+/**
+ * @author perla
+ *
+ */
+public class QuizQuestions {
+
+	/**
+	 * @param args
+	 * 
+	 * 
+	 * 
+	 * 
+	 */
+	
+	
+	public static String question_1;
+	public static String question_2;
+	public static String question_3;
+	public static String question_4;
+	public static String question_5;
+	
+	
+	public static int question1_Answer;
+	public static int question2_Answer;
+	public static int question3_Answer;
+	public static int question4_Answer;
+	public static int question5_Answer;
+	
+	
+	public static String question1_options1;
+	public static String question2_options2;
+	public static String question3_options3;
+	public static String question4_options4;
+	public static String question5_options5;
+	
+	
+	
+	static {
+		question_1="Who is the father of c language";
+		question_2="who is the fathe of c++";
+		question_3="Who is the father of java language";
+		question_4="Who is the father of BCPL language";
+		question_5="Who is the father of computer";
+	}
+	
+	
+	static {
+		question1_options1="1. Martin Richgard\n"
+	                      +"2. Denish rich"
+				          +"3.steave jobs\n"
+	                      +"4.Noe of the above";
+		question2_options2="1. Martin Richgard\n"
+                +"2. Charless babezi\n"
+		          +"3.Strustrub\n"
+                +"4.Noe of the above";
+		question3_options3="1. Martin Richgard\n"
+                +"2. Charless babezi\n"
+		          +"3.Strustrub\n"
+                +"4.james gosling";
+		question4_options4="1. Martin Richgard\n"
+                +"2. Charless babezi\n"
+		          +"3.Strustrub\n"
+                +"4.Noe of the above";
+	}
+	
+	
+	static {
+		question1_Answer=2;
+		question2_Answer=3;
+		question3_Answer=4;
+		question2_Answer=1;
+		question2_Answer=2;
+	}
+	
+	}
+
+

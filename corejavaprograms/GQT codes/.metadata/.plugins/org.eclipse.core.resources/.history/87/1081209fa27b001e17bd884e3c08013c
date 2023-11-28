@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class RevereWords {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub 
+		Scanner sc=new Scanner(System.in);
+		String s;
+		s=sc.nextLine();
+//		for(int i=0;i<s.length();i++) {
+//			if(s.charAt(i)=='a' || s.charAt(i)=='i' || s.charAt(i)=='o' || s.charAt(i)=='u' || s.charAt(i)=='e') {
+//				System.out.println(s.charAt(i));
+//			}
+//		}
+	char[] c=s.toCharArray();
+	for(int i=0;i<c.length;i++) {
+	  for(int j=i+1;j<c.length;j++) {
+		  if(c[i]==c[j] || c[i]!=' ') {
+			  System.out.println(c[i]);
+		  }
+	  }
+	}
+	}
+}
+
+
+

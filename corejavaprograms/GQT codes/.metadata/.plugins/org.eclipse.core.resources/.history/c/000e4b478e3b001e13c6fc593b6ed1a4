@@ -1,0 +1,51 @@
+
+import java.util.Scanner;
+package com.gqt.calculator.project;
+
+public class Quizequestions {
+	public static int key;
+	public static int amount;
+
+	public static void main(String[] args) 
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+     System.out.println("Your first question is:");
+     System.out.println(QuizQuestions.question_1);
+     System.out.println(QuizQuestions.question1_options1);
+     System.out.println("enter your correct choice:");
+     key=sc.nextInt();
+     
+     if(key==QuizQuestions.question1_Answer) {
+    	 amount=1000;
+    	 System.out.println("your answer is right.you have won:"+amount);
+    	 System.out.println("your second question is:");
+    	 System.out.println(QuizQuestions.question_2);
+         System.out.println(QuizQuestions.question2_options2);
+         System.out.println("enter your correct choice:");
+         key=sc.nextInt();
+         if(key==QuizQuestions.question2_Answer) {
+        	 amount=2000;
+        	 System.out.println("your answer is right.you have won:"+amount);
+        	 System.out.println("your second question is:");
+        	 System.out.println(QuizQuestions.question_3);
+             System.out.println(QuizQuestions.question3_options3);
+             System.out.println("enter your correct choice:");
+             key=sc.nextInt();
+             
+             if(key==QuizQuestions.question3_Answer) {
+            	 amount=3000;
+             
+            	 System.out.println("your answer is right.you have won:"+amount);
+            	 System.out.println("your second question is:");
+            	 System.out.println(QuizQuestions.question_3);
+                 System.out.println(QuizQuestions.question3_options3);
+                 System.out.println("enter your correct choice:");
+                 key=sc.nextInt();
+         }
+     }
+     
+     }
+}
+}
+
+

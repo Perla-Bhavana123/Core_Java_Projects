@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class equalsmethod {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the string1:");
+		String s1=sc.nextLine();
+		System.out.println("enter the strin2:");
+		String s2=sc.nextLine();
+		if(s1.equals(s2)==true) {
+			System.out.println("strings are equals:");
+		}
+		else
+		{
+			System.out.println("strings are not equals:");
+		}
+
+	}
+
+}
